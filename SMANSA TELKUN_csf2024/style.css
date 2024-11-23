@@ -1,0 +1,158 @@
+*,html{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0.0.5);
+    backdrop-filter: blur(10px);
+    he
+   
+}
+.navbar img{
+    width: 135px;
+    height: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.navigation{
+    margin-left: 5rem;
+}
+.navigation a{
+    font-size: 1rem;
+    list-style: none;
+    margin-left: 5rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    position: relative;
+    transition: color 0.3s ease;
+    color: #38b6ff;
+}
+
+.navigation a::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: #38b6ff;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+.navigation a:hover:after{
+    width: 100%;
+}
+
+
+.content {
+ 
+}
+.home img{
+   
+}
+
+
+.content h1{
+    position: absolute;
+    padding-bottom: 10rem;
+}
+
+
+
+.fa-solid.fa-star{
+    color: gold;
+}
+
+.box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+
+}
+.box-item{
+    width: calc( 100% /4 );
+    margin: -10px;
+}
+.box-wrapper{
+    padding: 10px;
+}
+.box-top{
+position: relative;
+height: 360px;
+width: 100%;
+border-radius: 20px;
+overflow: hidden;
+}
+.box-top img{
+    object-fit: cover;
+}
+
+.tentang{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 900px;
+    
+}
+.tentang img{
+    border-radius: 20px;
+    padding: 1rem 3rem;
+    
+}
+
+.tentang-button
+
+.tentang .text{
+    width: 50%;
+}
+.tentang .gambar{
+
+    width: 50%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.tentang .gambar img{
+    width:;
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+.home img{
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.home .content img{
+    width: 30vw;
+}
+
+.jelajah .box{
+    margin-top: 50rem;
+}
+.fa-solid.fa-star{
+    color: gold;
+}
